@@ -15,4 +15,4 @@ The first cell only needs to be executed once; then run the cells one by one unt
 
 ## Logs
 
-To see the logs, you need to open a terminal (I use Git Bash) in the folder where you have the environment. Then you activate it by running 'Scripts/activate', and navigate to where you have the logs. In my case, it would be something like 'PythonVenv\jupyter_playground\Projects\Mario\logs'. You'll see a folder named PPO_X, where X represents the training number. Enter this folder and run the following command: 'tensorboard --logdir=.'
+To see the logs, you need to open a terminal (I use Git Bash) in the folder where you have the environment. Navigate to where you have the logs. In my case, it would be something like 'PythonVenv\jupyter_playground\Projects\Mario\logs'. You'll see a folder named PPO_X, where X represents the training number. Enter this folder and run the following command: 'tensorboard --logdir=.'
